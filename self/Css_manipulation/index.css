@@ -1,0 +1,5 @@
+input{
+    height: 100%;
+    display: flex;
+    all: inherit;
+}

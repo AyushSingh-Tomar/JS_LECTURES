@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Leader-Board</h1>
+    <p>topic</p>
+    <table id="leaderBoard">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Rank</th>
+            <th>Score</th>
+            <th>Total</th>
+        </tr>
+    </table>
+    <div id="allVall">
+        <label for="totalQues">Total questions : </label>
+        <input type="number" name="totalQues" id="totalMarks">
+        <div ><button id="submit" onclick="setVal()">Submit</button>
+        <table id="scores">
+            <th>Name</th>
+            <th>Score</th>
+        </table>
+        </div>
+    </div>
+    
+    <div id="members">
+        <label for="delete">Delete :</label>
+        <input type="text" name="delete" id="delete">
+        <label for="add">Add :</label>
+        <input type="text" name="add" id="add">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

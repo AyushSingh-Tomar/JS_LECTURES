@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="interface">
+            <div class="head">
+                <h2>List of tasks</h2>
+            </div>
+            <div class="content">
+                <div class="numeration"><p class="data">S.No</p><div id="snodata"></div></div>
+                <div class="listing"><p class="data">Tasks</p><div id="listdata"></div></div>
+            </div>
+        </div>
+        <div class="control">
+            <div class="description">
+                <h5>enter description</h5>
+                <input id="Description" type="text" class="text">
+               
+            </div>
+            <div class="time">
+                <h5>enter time</h5>
+                <input id="time" type="text" class="text">
+               
+            </div>
+            <button onclick="myFunctionAdd(time.value,Description.value)">add item</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
