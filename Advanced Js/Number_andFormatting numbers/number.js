@@ -22,3 +22,16 @@ console.log(typeof x);
 //ex:-
 // accepts a number as an argument which specifies upto how many digits will considered
 console.log(number.toFixed(2));// 0.01
+
+
+// the toExponential() method used to format a number in exponential notation
+let num = 2000;
+console.log(num.toExponential());
+
+
+// the toPrecision() method is used to get a string representation of a number to the specified precision 
+ // the argument of the method decides the precision of the digit//(leftmost n digits)
+ let num1= 59.13435;
+ console.log(num1.toPrecision(4));
+ console.log(num1.toPrecision()); //empty function will give full string, it works as toString()
+
