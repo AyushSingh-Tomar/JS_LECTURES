@@ -73,9 +73,9 @@ let first = arr2.shift();
 console.log(first,arr2)
 
 //splice() method allows to delete existing elements, add new elements and replace the existing elements of the array
-arr2.splice(0,2);// the first argument is the starting index of splicing and the other argument is the end of splicing,last index is inclusive, this method also returns deleted numbers
+let d = arr2.splice(0,2);// the first argument is the starting index of splicing and the other argument is the end of splicing,last index is inclusive, this method also returns deleted numbers
 console.log(arr2);
-
+console.log(`Deleted elements :${d}`)
 
 // it also returns deleted numbers
 let deletedNumbers=arr2.splice(0,2);
@@ -86,7 +86,7 @@ console.log(deletedNumbers)
 // arr2.splice(Position,0,new1,new2,...)
 arr2.splice(3,0,19,18,17,16); // now it will return an empty array as nothing is removed
 console.log(arr2);
-
+console.log("here")
 // replacing the pre-existing elements by new elements
 let array_num= [10,20,30];
 //Array.splice(position,1,val)
