@@ -1,7 +1,6 @@
 // Symbol data type
 // javascript ES6 introduced a primitive new data type 
 // symbol are unique and it can not be changed
-
 // to create a new symbol use global symbol function
 const s = Symbol();
 
@@ -21,7 +20,7 @@ console.log(s3)
 console.log(s3.description)
 
 //when we create a new symbol with same description, still it will be different unique symbol
-
+var a =10;
 //Symbols can be used as object keys, it is useful when you want to assign a unique identifier to an object
 const id = Symbol("id");
 const course ={
@@ -48,3 +47,7 @@ console.log(gs1==gs) // true;
 //TO get a key associated to a symbol you can use Symbol.keyFor("symbol")
 console.log(Symbol.keyFor(gs))
 // here you need to create a symbol with Symbol.for("key") only else youll get undefined
+
+console.log(this.a);
+console.log(globalThis.a);
+console.log(globalThis);

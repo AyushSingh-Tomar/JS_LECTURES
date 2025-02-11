@@ -1,0 +1,23 @@
+// static imports
+
+
+javascript modules allow you to break your code into files so that it is easier to maintain
+a module may contain 
+variable
+function 
+classes 
+etc
+
+we can export one module into another to use it's functions and variables into another module
+
+
+There are two types of exports, 
+1> Named exports
+2> default exports
+
+
+// JS modules only work in a strict mode that means no variable or functions declared in the module will be added automatically to global scope. 
+
+
+
+//tg2.js:3 Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.
