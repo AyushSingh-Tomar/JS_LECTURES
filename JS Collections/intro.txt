@@ -1,0 +1,3 @@
+JS collections
+
+ES6 has introduced some new data structures Map,weakMap,Set,weakSet.

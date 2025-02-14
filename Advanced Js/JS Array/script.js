@@ -217,4 +217,4 @@ unSorted_array.forEach((x)=>{console.log(x)});
 
 // multidimensional array
 let multidimensional_array =[[1,2,3],[1,2,3]]
-multidimensional_array.forEach((x)=>{x.forEach((y)=>{console.log(y)})})
+multidimensional_array.forEach((x)=>{x.forEach((y)=>{console.log(y)})});

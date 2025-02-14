@@ -86,3 +86,15 @@ console.log(p);
 
 p.then(value=>{console.log(`Successful : ${value}`)}).catch(err=>{console.log(err)}).finally(()=>{console.log("Done")});
 
+let new_promise = new Promise((resolve,reject)=>{
+    let x =1;
+    if(x==0){
+        resolve("success")
+    }
+    else{
+        reject("Error")
+    }
+    
+})
+
+new_promise.then((value)=>{console.log(value)},(err)=>{console.log(err)})
