@@ -1,0 +1,15 @@
+API stands for Application programming interface
+Web API stands for Application programming interface for web
+Web API allows us to use the modern functions provided by the web browsers in our applications
+
+
+All browsers have a set of built in web APIs like 
+
+1> API for client Storage
+1> FormData API
+1> Drag and Drop API
+1> Geolocation API
+1> Notification API
+1> Canvas API
+1> History API
+1> Fetch API

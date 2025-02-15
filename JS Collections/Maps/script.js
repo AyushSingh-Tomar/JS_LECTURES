@@ -56,5 +56,46 @@ my_map.delete("Person1")//-> deletes and returns Person1
 my_map.delete("Person6")//-> does not delete anything,returns false
 console.log(my_map)
 //clear()
-my_map.clear()//--> Removes all element
-console.log(my_map);
+// my_map.clear()//--> Removes all element
+console.log(my_map); 
+
+//==================  .size =================//
+my_map.size=9; //useless
+console.log(my_map.size)
+
+
+//==================  keys() =================//
+let x = my_map.keys();
+console.log(typeof x)
+console.log(x)
+
+//==================  values() =================//
+let v = my_map.values();
+console.log(typeof v)
+console.log(v)
+
+//==================  entries() =================//
+let z = my_map.entries();
+console.log(typeof z)
+console.log(z)
+
+
+// we can iterate over the elements of a map using for of loop or for each method
+
+my_map.forEach((y,x)=>{
+    console.log(x+"=>"+y)
+})
+
+ for(let [key,value] of my_map){
+    console.log(key+"=>"+value)
+ }
+
+ for(let keys of my_map.keys()){
+    console.log(my_map.get(keys));
+ }
+ for(let values of my_map.values()){
+    console.log(values);
+ }
+ for(let tuple of my_map.entries()){
+    console.log( tuple);
+ }

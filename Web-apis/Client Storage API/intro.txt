@@ -1,0 +1,4 @@
+it uses Cookies, localstorage,sessionStorage and indexedDB
+to store data in web browser
+
+
