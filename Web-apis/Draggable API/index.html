@@ -5,15 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
-            user-select: none;
+        .list{
+            background:crimson;
+            color:#fff;
+            width:100px;
+            text-align:center;
+            line-height:40px;
+        }
+        .area{
+            position: absolute;
+            top: 100px;
+            left: 40%;
+            width: 300px;
+            height: 300px;
+            background-color: azure;
         }
     </style>
 </head>
 <body>
-    <!--Allows you to make any element draggable-->
-    <h1 draggable="false" spellcheck="true">First</h1>
-    <h1 draggable="false" spellcheck="true">Second</h1>
-    <h1 draggable="false" spellcheck="true">Third</h1>
+    <!--
+    Allows you to make any element draggable
+    when we start to drag an element in this, it will throw a sequence of events
+    1> dragstart
+    2> drag-- repeatedly as long as we drag the element
+    3> dragend
+    -->
+    <h1 draggable="true" spellcheck="true">First</h1>
+    <h1 draggable="true" spellcheck="true">Second</h1>
+    <h1 draggable="true" spellcheck="true">Third</h1>
+    <div class="list" draggable="true">List Item</div>
+    <div class="area"></div>
+    <script src="script.js"></script>
 </body>
 </html>
